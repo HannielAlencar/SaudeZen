@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 
 * {
   margin: 0;
@@ -6,38 +6,55 @@
   box-sizing: border-box;
 }
 
-body {
-  font-family: 'Montserrat', sans-serif;
-  background-color: #eaf4f4;
+html, body {
+  overflow: hidden;   
+  height: 100%;       
+  margin: 0;
 }
+
+body {
+  font-style: bold;
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:400;
+}
+
 
 .apresentacao {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items:stretch;
   padding: 60px 100px;
   min-height: 100vh;
-  background-color: #eaf4f4;
+  background-color:#e1ebed;
+ 
 }
 
 .apresentacao__conteudo {
-  max-width: 50%;
+  max-width: 60%;
+  padding: 10% 4% 4% 4%;
+   
+  
 }
 
 .apresentacao__logo {
-  width: 100px;
+  width: 130px;
   margin-bottom: 20px;
+  position: relative;
+  bottom: 2%;
+  
 }
 
-.apresentacao__titulo {
-  font-size: 40px;
-  font-weight: 600;
+.Título {
+  
+  font-size: 50px;
+  font-weight: 800;
   color: #009999;
   margin-bottom: 20px;
 }
 
 .apresentacao__texto {
-  font-size: 18px;
+  font-size: 25px;
   color: #333333;
   margin-bottom: 30px;
   line-height: 1.6;
@@ -45,15 +62,16 @@ body {
 
 .button {
   display: inline-block;
-  background-color: #00bfa6;
+  background-color: #1cb5b9;
   color: white;
-  padding: 16px 32px;
-  font-size: 18px;
+  padding: 20px 55px;
+  font-size: 25px;
   border: none;
   border-radius: 30px;
   text-decoration: none;
   font-weight: 600;
   transition: background-color 0.3s ease;
+
 }
 
 .button:hover {
@@ -63,10 +81,15 @@ body {
 .apresentacao__imagem {
   max-width: 45%;
   text-align: center;
+  
 }
 
-.imagem-senhora {
-  width: 100%;
+.designSenhora {
+  width: 38%;
   height: auto;
-  border-radius: 10px;
+  border: none;
+  outline: none;
+  position: relative;
+  left: 100px;
+  bottom: 80px;
 }
