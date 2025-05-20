@@ -3,38 +3,39 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Cadastro de Servidor - Hanniker</title>
+  <title>Cadastro - SaúdeZen</title>
   <link rel="stylesheet" href="../static/css/cadastro.css" />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
 </head>
 <body>
-    <main class = "apresentacao">
-    <section class = "apresentacao__conteudo">
-  <div class="login-container">
-    <div class="login-box">
-      <div class="logo">
-      <h1>Hanniker - Controle de Ponto</h1>
-    <h2 class="subtitle">Cadastro</h2>
+  <main class="container">
+    
+    <section class="form-section">
+      <div class="form-bocx">
+        <h1>Crie sua conta</h1>
+          <form>
+            <label for="email">Email</label>
+              <input type="email" id="email" name="email" required placeholder="Digite seu email" />
+
+              <label for="password">Senha</label>
+              <input type="password" id="password" name="password" required placeholder="Digite uma senha" />
+
+              <button type="submit" class="submit-btn">Cadastrar-se</button>
+
+              <button type="button" class="google-btn">
+                <img src="https://www.svgrepo.com/show/475656/google-color.svg" alt="Google logo" />
+                Continue com Google
+              </button>
+
+              <p class="login-text">Já tem uma conta? <a href="#">Faça Login</a></p>
+          </form>
       </div>
+    </section>
 
-      <form id="servidorForm" class="login-form">
-        <label for="name">Nome completo</label>
-        <input type="text" id="name" name="name" required />
+    <section class="image">
+      <img src="../static/imagens/roboLogo.jpg" alt="Robô médico" />
+    </section>
 
-        <label for="email">E-mail</label>
-        <input type="email" id="email" name="email" required />
-
-        <label for="matricula">Matrícula</label>
-        <input type="text" id="matricula" name="matricula" required />
-
-        <button type="submit">Cadastrar Servidor</button>
-      </form>
-    </div>
-  </div>
-</section>
-<img src="../static/imagens/roboLogo.jpg" alt="logoRobo" class="logo-icon" />
-</main>
-
-  <script type="module" src="register-servidor.js"></script>
+  </main>
 </body>
 </html>
