@@ -3,37 +3,31 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Cadastro - SaúdeZen</title>
-  <link rel="stylesheet" href="../static/css/cadastro.css" />
+  <title>Login - Saúde</title>
+  <link rel="stylesheet" href="../static/css/login.css" />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
 </head>
 <body>
   <main class="container">
-    
+    <section class="image">
+      <img src="../static/imagens/roboLogo.jpg" alt="Robô médico" />
+    </section>
     <section class="form-section">
       <div class="form-box">
-        <h1>Crie sua conta</h1>
+        <h1>Entre em sua conta</h1>
           <form>
             <label for="email">Email</label>
               <input type="email" id="email" name="email" required placeholder="Digite seu email" />
 
-              <label for="password">Senha</label>
+              <label for="password">Senha</label> 
               <input type="password" id="password" name="password" required placeholder="Digite uma senha" />
 
-              <button type="submit" class="submit-btn">Cadastrar-se</button>
+              <button type="submit" class="submit-btn">Entrar</button>
+              <p class="login-text">Não possui uma conta? <a href="cadastro.html">Faça Cadastro</a></p>
 
-              <button type="button" class="google-btn">
-                <img src="https://www.svgrepo.com/show/475656/google-color.svg" alt="Google logo" />
-                Continue com Google
               </button>
-
-              <p class="login-text">Já tem uma conta? <a href="login.html">Faça Login</a></p>
           </form>
       </div>
-    </section>
-
-    <section class="image">
-      <img src="../static/imagens/roboLogo.jpg" alt="Robô médico" />
     </section>
 
   </main>
