@@ -31,18 +31,27 @@ body {
 }
 
 .apresentacao__conteudo {
-  max-width: 60%;
-  padding: 10% 4% 4% 4%;
-   
-  
+  max-width: 50%;
+  padding: 2% 4%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  transform: translateY(-16%);
 }
 
 .apresentacao__logo {
-  width: 130px;
-  margin-bottom: 20px;
+  width: 100px;
+  margin-bottom: 16px;
   position: relative;
   bottom: 2%;
   
+}
+
+.apresentacao__texto {
+  font-size: 18px;
+  color: #333333;
+  margin-bottom: 30px;
+  line-height: 1.6;
 }
 
 .Título {
@@ -53,25 +62,23 @@ body {
   margin-bottom: 20px;
 }
 
-.apresentacao__texto {
-  font-size: 25px;
-  color: #333333;
-  margin-bottom: 30px;
-  line-height: 1.6;
-}
-
 .button {
   display: inline-block;
   background-color: #1cb5b9;
   color: white;
-  padding: 20px 55px;
-  font-size: 25px;
+  padding: 12px 36px; 
+  font-size: 18px; 
   border: none;
   border-radius: 30px;
   text-decoration: none;
   font-weight: 600;
   transition: background-color 0.3s ease;
 
+}
+
+.botoes {
+  display: flex;
+  gap: 20px;
 }
 
 .button:hover {
