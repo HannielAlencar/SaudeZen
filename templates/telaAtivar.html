@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ativação - SaúdeZen</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            display: flex;
+            height: 100vh;
+            font-family: 'Arial', sans-serif;
+        }
+        .imagem {
+            width: 65%;
+            background-image: url('fundo.jpeg');
+            background-size: cover;
+            background-position: center;
+        }
+        .conteudo {
+            width: 35%;
+            background-color: #f0f8f5;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .card {
+            background-color: rgba(255, 255, 255, 0.95);
+            padding: 40px;
+            border-radius: 20px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+            max-width: 350px;
+            text-align: center;
+        }
+        .card h1 {
+            color: #2a9d8f;
+            margin-bottom: 10px;
+        }
+        .card p {
+            color: #555;
+            margin-bottom: 30px;
+        }
+        .btn-ativar {
+            background-color: #25d366;
+            color: white;
+            border: none;
+            padding: 15px 25px;
+            border-radius: 50px;
+            cursor: pointer;
+            font-size: 16px;
+            transition: background-color 0.3s;
+            text-decoration: none;
+            display: inline-block;
+        }
+        .btn-ativar:hover {
+            background-color: #1ebe57;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="imagem"></div>
+
+    <div class="conteudo">
+        <div class="card">
+            <h1>Quase lá!</h1>
+            <p>Para começar a receber os conteúdos, clique no botão abaixo e autorize o envio das mensagens pelo <b>WhatsApp</b>.</p>
+            
+            <a class="btn-ativar" href="https://wa.me/61998171598?text=Ol%C3%A1%2C+quero+ativar+o+Sa%C3%BAdeZen" target="_blank">
+                Ativar via WhatsApp
+            </a>
+        </div>
+    </div>
+
+</body>
+</html>
