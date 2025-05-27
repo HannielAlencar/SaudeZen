@@ -10,7 +10,7 @@ body {
 }
 .imagem {
     width: 65%;
-    background-image: url('roboLogo.jpg');
+    background-image: url('../imagens/roboLogo.jpg');
     background-size: cover;
     background-position: center;
 }
