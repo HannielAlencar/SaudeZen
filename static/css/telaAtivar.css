@@ -1,0 +1,54 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    display: flex;
+    height: 100vh;
+    font-family: 'Raleway', sans-serif;
+}
+.imagem {
+    width: 65%;
+    background-image: url('roboLogo.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.conteudo {
+    width: 35%;
+    background-color: #f0f8f5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card {
+    background-color: rgba(255, 255, 255, 0.95);
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    max-width: 350px;
+    text-align: center;
+}
+.card h1 {
+    color: #2a9d8f;
+    margin-bottom: 10px;
+}
+.card p {
+    color: #555;
+    margin-bottom: 30px;
+}
+.btn-ativar {
+    background-color: #25d366;
+    color: white;
+    border: none;
+    padding: 15px 25px;
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+    text-decoration: none;
+    display: inline-block;
+}
+.btn-ativar:hover {
+    background-color: #1ebe57;
+}
